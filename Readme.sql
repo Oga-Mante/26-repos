@@ -4,3 +4,12 @@
 ----Data preparation steps included formatting numeric fields to standardized decimal precision and deriving new analytical features using CASE WHEN logic, such as customer age groups and revenue categories. The resulting dataset enables structured analysis of purchasing behavior, product performance, and revenue distribution across different customer segments.
 
 -----This project demonstrates practical skills in relational database querying, data transformation, and analytical reporting using
+
+
+
+---Linkedin: OBIOMA NNAEMEKA
+
+---Tableau public:OBIOMA NNAEMEKA
+
+---Mail: Obiomagt@gmail.com
+
