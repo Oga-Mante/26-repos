@@ -3,15 +3,16 @@
 -----This is usde to rank or show the best or worst performing dmensions to know where to invest more and aalso know how to enter 
 ----those markets more efficiently as well as know when and how best to cut down or expand, send loyalty bonuses and others... 
 
------Revenue by Country
-select top 3
+-----Top 3 countries by net revenue
+SELECT TOP 3
     c.country,
-    round(sum(t.gross_revenue),2) gross_revenue
-from customers  c
-    left join transactions t
-    on c.customer_id = t.customer_id
-    group by country
-    order by count(gross_revenue) desc 
+    ROUND(SUM(t.gross_revenue), 2) AS net_revenue
+FROM customers c
+JOIN transactions t
+    ON c.customer_id = t.customer_id
+WHERE t.product_id IS NOT NULL
+GROUP BY c.country
+ORDER BY SUM(t.gross_revenue) DESC;
 
 --Loyalty levels by numbers
 SELECT top 3
