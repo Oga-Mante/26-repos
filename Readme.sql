@@ -1,15 +1,12 @@
+## Data Source
 
-----This project focuses on integrating and analyzing sales data from three relational tables: customers, products, and transactions. SQL joins were used to construct a consolidated dataset containing customer demographics, product attributes, and transaction-level revenue information.
+Dataset: Marketing & E-Commerce Analytics Dataset
+Author: geethasagarbonthu (Kaggle username)
+Link: https://www.kaggle.com/datasets/geethasagarbonthu/marketing-and-e-commerce-analytics-dataset
+Licence: CC0 1.0 Universal (Public Domain), https://creativecommons.org/publicdomain/zero/1.0/
 
-----Data preparation steps included formatting numeric fields to standardized decimal precision and deriving new analytical features using CASE WHEN logic, such as customer age groups and revenue categories. The resulting dataset enables structured analysis of purchasing behavior, product performance, and revenue distribution across different customer segments.
+Files in this repository: customers.csv (100,000 rows), products.csv (2,000), campaigns.csv (50), transactions.csv (103,127).
+The events table (2,000,000 rows) is too large for GitHub. Download it from the Kaggle link above if you want to run the queries that use it.
 
------This project demonstrates practical skills in relational database querying, data transformation, and analytical reporting using
-
-
-
----Linkedin: OBIOMA NNAEMEKA
-
----Tableau public:OBIOMA NNAEMEKA
-
----Mail: Obiomagt@gmail.com
+Note: The data is synthetic. Findings demonstrate SQL techniques and are not evidence of real business performance.
 
